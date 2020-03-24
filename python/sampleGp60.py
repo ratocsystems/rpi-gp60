@@ -4,6 +4,7 @@
 #   RPi-GP60 サンプルプログラム
 #   "sampleGp60.py"
 #   2018/12/07 R1.0
+#   2020/03/24 R1.1 初期値としてRTS=Falseを明示
 #   RATOC Systems, Inc. Osaka, Japan
 #
 
@@ -51,9 +52,9 @@ def input_param( ser ):
     i=input(" xonxoff(False, True) = ")
     if( len(i) ):
         ser.xonoff = i                # Xon/Xoff制御 設定変更
-    i=input(" rtccts(False, True) = ")
+    i=input(" rtscts(False, True) = ")
     if( len(i) ):
-        ser.rtccts = i                # RTC/CTS制御 設定変更
+        ser.rtscts = i                # RTS/CTS制御 設定変更
     i=input(" dsrdtr(False, True) = ")
     if( len(i) ):
         ser.dsrdtr = i                # DSR/DTR制御 設定変更
@@ -83,6 +84,15 @@ if __name__ == "__main__":
         s1.port = port1
         s1.timeout = 0.5
 
+        s0.rtscts=False
+        s0.dsrdtr=False
+        s0.rts=False
+        s0.dtr=False
+        s1.rtscts=False
+        s1.dsrdtr=False
+        s1.rts=False
+        s1.dtr=False
+
         while( key != 0 ):
             i = input( "1:送受信テスト(RS232/RS422全二重) 2:1:送受信テスト(RS485半二重) 3:設定 0:終了 > " )
             if( len(i) == 0 ):      # Enterのみなら、
@@ -107,6 +117,13 @@ if __name__ == "__main__":
                     continue
                 s0.open() # Port0 オープン
                 s1.open() # Port1 オープン
+
+                if( key == 1 ):   # '1'なら、全二重の設定
+                    # RPi-GP60のRS422では、TXDENにRTS信号を使用。全二重で通信するにはRTSを常にFalse状態とする。
+                    if(s0.rtscts==False):
+                        s0.rts=False
+                    if(s1.rtscts==False):
+                        s1.rts=False
 
                 if( key == 2 ):   # '2'なら、RS485モードの設定
                     # RPi-GP60ではRTSの設定を、(rts_level_for_tx=False, rts_level_for_rx=True)とする。
