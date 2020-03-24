@@ -101,7 +101,7 @@ RPi-GP60を使用してシリアルの送受信を行うPythonサンプルプロ
     ~~~  
     $ python3 sampleGp60.py  
     RPi-GP60 検査プログラム  
-    1:送受信テスト(RS232/RS422全二重) 2:1:送受信テスト(RS485半二重) 3:設定 4:出荷検査 0:終了 > 3  
+    1:送受信テスト(RS232/RS422全二重) 2:1:送受信テスト(RS485半二重) 3:設定 0:終了 > 3  
     [Port0 現在の設定]  
     Serial<id=0x76a49b90, open=False>(port='/dev/ttySC0', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.5, xonxoff=False, rtscts=False, dsrdtr=False)  
     設定値を入力 enter:変更なし >  
@@ -137,5 +137,5 @@ RPi-GP60を使用してシリアルの送受信を行うPythonサンプルプロ
     受信データ：UUUU
     
     送信データ入力 enter:戻る >  
-    1:送受信テスト(RS232/RS422全二重) 2:1:送受信テスト(RS485半二重) 3:設定 4:出荷検査 0:終了 > 0  
+    1:送受信テスト(RS232/RS422全二重) 2:1:送受信テスト(RS485半二重) 3:設定 0:終了 > 0  
     ~~~   
