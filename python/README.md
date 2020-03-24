@@ -67,7 +67,7 @@ RPi-GP60を使用してシリアルの送受信を行うPythonサンプルプロ
     - ストップビット長[bit]  
     - 受信タイムアウト時間[sec]  
     - フロー制御 XON/XOFF設定[False/True]  
-    - フロー制御 RTC/CTS設定[False/True]  
+    - フロー制御 RTS/CTS設定[False/True]  
     - フロー制御 DSR/DTR設定[False/True]  
 
 1. **メニュー表示**  
@@ -111,7 +111,7 @@ RPi-GP60を使用してシリアルの送受信を行うPythonサンプルプロ
      stopbits(1, 1.5, 2) =  
      timeout =  
      xonxoff(False, True) =  
-     rtccts(False, True) =  
+     rtscts(False, True) =  
      dsrdtr(False, True) =  
     [Port1 現在の設定]  
     Serial<id=0x76a49bb0, open=False>(port='/dev/ttySC1', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.5, xonxoff=False, rtscts=False, dsrdtr=False)  
@@ -122,7 +122,7 @@ RPi-GP60を使用してシリアルの送受信を行うPythonサンプルプロ
      stopbits(1, 1.5, 2) =  
      timeout =  
      xonxoff(False, True) =  
-     rtccts(False, True) =  
+     rtscts(False, True) =  
      dsrdtr(False, True) =  
     1:送受信テスト(RS232/RS422全二重) 2:1:送受信テスト(RS485半二重) 3:設定 4:出荷検査 0:終了 > 1  
     送信ポート番号(0, 1) enter:戻る > 0  
