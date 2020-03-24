@@ -124,7 +124,7 @@ RPi-GP60を使用してシリアルの送受信を行うPythonサンプルプロ
      xonxoff(False, True) =  
      rtscts(False, True) =  
      dsrdtr(False, True) =  
-    1:送受信テスト(RS232/RS422全二重) 2:1:送受信テスト(RS485半二重) 3:設定 4:出荷検査 0:終了 > 1  
+    1:送受信テスト(RS232/RS422全二重) 2:1:送受信テスト(RS485半二重) 3:設定 0:終了 > 1  
     送信ポート番号(0, 1) enter:戻る > 0  
     受信ポート番号(0, 1) enter:戻る > 1  
     送信データ入力 enter:戻る > ABCD  
