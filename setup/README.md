@@ -100,11 +100,13 @@ SC16IS752のI2CドライバはRaspberry-piに標準で用意されています�
     $ sudo nano /boot/config.txt
     ```
 
-1. 次の行を最終行へ追加する  
+1. 次の2行を最終行へ追加する  
     ```
+    gpio=27=op,dh
     dtoverlay=sc16is752-i2c,int_pin=17,addr=0x4d,xtal=14745600
     ```
     「1-1. I2Cアドレスの設定」でアドレスを変更している場合は、[addr=0x4d]を適宜書き換えてください。
+    2020年8月以降のRaspiOSでは、オーバーレイの前にGPIO27をHighにしてRPi-GP60の絶縁電源をONにする必要があります。
 
 1. CTRL+Oで書き込み、CTRL+Xで終了する  
 
