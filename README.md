@@ -38,7 +38,7 @@ RPi-GP60 は、Raspberry Pi の GPIO 40Pin（I2C）に接続する絶縁型の�
 
 - [RPi-GP60の各部名称と説明](./constitution/README.md)  
 
-- [RASPBIANの設定](./install/README.md)  
+- [Raspberry Pi OSの設定](./install/README.md)  
 
 - [RPi-GP60の設定と装着](./setup/README.md)  
 
