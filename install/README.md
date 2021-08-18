@@ -31,38 +31,38 @@ Raspberry Pi OSはexFATに対応していませんので、別のツールを使
 
 3-1. Raspberry Pi Imagerが起動すると以下の画面が表示されます。
 
-   ![01](/install/img/osinstall-01.png)  
+   ![01](/install/img/osInstall-01.png)  
 
 3-2. [CHOOSE OS]をクリックして[Raspberry Pi OS (32-bit)]を選択します。
 
-   ![02](/install/img/osinstall-02.png) 
+   ![02](/install/img/osInstall-02.png) 
 
 3-3. [CHOOSE SD CARD]をクリックして、書き込み先のデバイス（SD Card）を選択します。
  
-  ![03](/install/img/osinstall-03.png) 
+  ![03](/install/img/osInstall-03.png) 
 
 3-4. [WRITE] をクリックします。
 
-  ![04](/install/img/osinstall-04.png) 
+  ![04](/install/img/osInstall-04.png) 
 
 3-5. 確認ダイアログ画面で [YES]を選択して、SD Cardへの書き込みを開始します。
 
-  ![05](/install/img/osinstall-05.png) 
+  ![05](/install/img/osInstall-05.png) 
 
 3-6. 途中、書き込みの進捗状況が表示されます。
 
-  ![06](/install/img/osinstall-07.png) 
+  ![06](/install/img/osInstall-07.png) 
 
 3-7. 書き込みが終わると、以下の完了画面が表示されます。
 　　[CONTINUE] をクリックして、microSDカードを取り外します。
 
-  ![07](/install/img/osinstall-08.png) 
+  ![07](/install/img/osInstall-08.png) 
 
 ### 4. OSの起動と日本語モードの設定
 
 4-1. microSDカードをRaspberry Pi基板に接続し起動します。  
 
-  ![08](/install/img/osinstall-09.png) 
+  ![08](/install/img/osInstall-09.png) 
 
 4-2. [Preferense]-[Raspberry Pi Configuration]をクリックします。
 
