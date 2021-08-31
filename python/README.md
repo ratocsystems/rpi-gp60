@@ -9,7 +9,7 @@ Raspberry Piは'Raspberry Pi3 ModelB'、OSは'Raspbian Stretch with desktop(NOOB
 ## 準備  
 ### Raspberry PiにRPi-GP60を接続  
 下記の準備をおこなってください。  
-- [OS(`RASPBIAN`)のインストール](../install/README.md#raspbianのインストール)  
+- [Raspberry Pi OSのインストール](../install/README.md#osInstallation)  
 - [GPIO40pinのI2C設定](../install/README.md#i2cの有効設定)  
 - ['Raspberry Pi'に'RPi-GP60'を接続](../setup/README.md#rpi-gp60の設定と装着)  
 - [シリアルドライバの設定](/setup/README.md#4-シリアルドライバ設定)  
