@@ -3,7 +3,7 @@
 Rapberry Pi用のOSである Raspberry Pi OS(Rasbian)の設定について説明します。  
 Raspberry Pi本体は'Raspberry Pi3 ModelB'、
 Raspberry Pi Imagerは、'Raspberry Pi Imager 1.6.2'、
-OSは'Raspberry Pi OS Version 2021-03-04)'で説明します。
+OSは'Raspberry Pi OS Version 2021-03-04'で説明します。
 ※2020年5月に名称が「Rasbian」から「Raspberry Pi OS」に変更されました。
 
 ## Raspberry Pi OSのインストール  
