@@ -1,7 +1,7 @@
 # RPi-GP60用Pythonサンプルファイル
 
 RPi-GP60用Pythonサンプルファイルの使用方法について説明します。  
-Raspberry Piは'Raspberry Pi3 ModelB'、OSは'Raspbian Stretch with desktop(NOOBS:2018-03-14)'で説明します。  
+Raspberry Piは'Raspberry Pi3 ModelB'、OSは'Raspbian Stretch with desktop(NOOBS:2018-03-14'で説明します。  
 サンプルファイルは`sampleGp60.py`です。  
 
   
