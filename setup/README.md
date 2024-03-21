@@ -105,6 +105,10 @@ SC16IS752のI2CドライバはRaspberry-piに標準で用意されています�
     ```
     $ sudo nano /boot/config.txt
     ```
+    (注意)Raspberry Pi 5 からconfig.txtの保存フォルダが「/boot」から「/boot/firmware」に移動しました。
+    ```
+        $ sudo nano /boot/firmware/config.txt
+    ```
 
 1. 次の2行を最終行へ追加する  
     ```
