@@ -2,8 +2,8 @@
 
 Rapberry Pi用のOSである Raspberry Pi OS(旧Rasbian※)の設定について説明します。  
 Raspberry Pi本体は'Raspberry Pi4 ModelB'、
-Raspberry Pi Imagerは、'Raspberry Pi Imager 1.8.5'、
-OSは'Raspberry Pi OS Version 2024-03-07'で説明します。
+Raspberry Pi Imagerは、'Raspberry Pi Imager 1.8.5'、<br>
+OSは'Raspberry Pi OS Version 2024-03-07'で説明します。<br>
 ※2020年5月に名称が「Rasbian」から「Raspberry Pi OS」に変更されました。
 
 ## Raspberry Pi OSのインストール  
@@ -11,7 +11,7 @@ OSは'Raspberry Pi OS Version 2024-03-07'で説明します。
 
 ###	1. Class10のmicroSD(8～32G)を用意します。
 
-*64GB以上のSDカードの場合、exFATでフォーマットされます。
+*64GB以上のSDカードの場合、exFATでフォーマットされます。<br>
 Raspberry Pi OSはexFATに対応していませんので、別のツールを使ってFAT16またはFAT32でフォーマットする必要があります。*
 
 ### 2. Raspberry財団公式ホームページ( https://raspberrypi.org/software/ )でRaspberry Pi Imager をダウンロードしてインストールします。
